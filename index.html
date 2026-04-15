@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Rotisería</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            color: orange;
+        }
+
+        .producto {
+            background-color: #222;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: orange;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkorange;
+        }
+         a button {
+    margin-top: 20px;
+    font-size: 18px;
+}
+    </style>
+   
+</head>
+
+<body>
+
+    <h1>🔥 Rotisería El Sabor 🔥</h1>
+    <p>Comida casera al mejor precio</p>
+
+    <div class="producto">
+        <h2>Milanesas</h2>
+        <p>$3000</p>
+        <button onclick="comprar('Milanesas')">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <h2>Empanadas</h2>
+        <p>$2000</p>
+        <button onclick="comprar('Empanadas')">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <h2>Pizzas</h2>
+        <p>$4000</p>
+        <button onclick="comprar('Pizzas')">Comprar</button>
+    </div>
+
+    <script>
+        function comprar(producto) {
+            alert("Elegiste: " + producto);
+        }
+    </script>
+
+</body>
+</html>
+<a href="https://wa.me/542984710206?text=Hola%20quiero%20hacer%20un%20pedido" target="_blank">
+    <button>📲 Pedir por WhatsApp</button>
+</a>
